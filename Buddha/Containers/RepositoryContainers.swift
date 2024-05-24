@@ -6,3 +6,9 @@
 //
 
 import Foundation
+import Factory
+
+final class RepositoryContainers: SharedContainer {
+    static let shared = RepositoryContainers()
+    let manager = ContainerManager()
+}

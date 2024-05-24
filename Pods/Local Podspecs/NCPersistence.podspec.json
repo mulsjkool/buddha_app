@@ -1,0 +1,27 @@
+{
+  "name": "NCPersistence",
+  "version": "0.1.0",
+  "summary": "A short description of NCPersistence.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/mulsjkool",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Chinh Phung": "chinhhubt96@gmail.com"
+  },
+  "source": {
+    "path": "",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "15.0"
+  },
+  "source_files": "NCPersistence/Sources/**/*.{swift}",
+  "dependencies": {
+    "KeychainAccess": [
+
+    ]
+  }
+}

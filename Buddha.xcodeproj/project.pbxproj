@@ -7,18 +7,49 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		280D1C03721D97289BF550B0 /* Pods_Buddha.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B5673A5FCB42B61275128AD /* Pods_Buddha.framework */; };
 		31C0B1982BFC44EC002A21B8 /* BuddhaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31C0B1972BFC44EC002A21B8 /* BuddhaApp.swift */; };
 		31C0B19A2BFC44EC002A21B8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31C0B1992BFC44EC002A21B8 /* ContentView.swift */; };
 		31C0B19C2BFC44ED002A21B8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 31C0B19B2BFC44ED002A21B8 /* Assets.xcassets */; };
 		31C0B19F2BFC44ED002A21B8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 31C0B19E2BFC44ED002A21B8 /* Preview Assets.xcassets */; };
+		31C0B1A92BFC5B9B002A21B8 /* Colors.json in Resources */ = {isa = PBXBuildFile; fileRef = 31C0B1A82BFC5B9B002A21B8 /* Colors.json */; };
+		31C0B1AC2BFC5C08002A21B8 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 31C0B1AA2BFC5C08002A21B8 /* Localizable.strings */; };
+		31C0B1B32BFC5CDC002A21B8 /* Storyboards.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31C0B1AF2BFC5CDC002A21B8 /* Storyboards.swift */; };
+		31C0B1B42BFC5CDC002A21B8 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31C0B1B02BFC5CDC002A21B8 /* Colors.swift */; };
+		31C0B1B52BFC5CDC002A21B8 /* Strings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31C0B1B12BFC5CDC002A21B8 /* Strings.swift */; };
+		31C0B1B62BFC5CDC002A21B8 /* Assets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31C0B1B22BFC5CDC002A21B8 /* Assets.swift */; };
+		31C0B1BF2BFC8D2E002A21B8 /* ServiceContainers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31C0B1BE2BFC8D2E002A21B8 /* ServiceContainers.swift */; };
+		31C0B1C12BFC8E63002A21B8 /* APIContainers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31C0B1C02BFC8E63002A21B8 /* APIContainers.swift */; };
+		31C0B1C32BFC8F14002A21B8 /* RepositoryContainers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31C0B1C22BFC8F14002A21B8 /* RepositoryContainers.swift */; };
+		31C0B1C72BFC8F64002A21B8 /* CommonContainers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31C0B1C62BFC8F64002A21B8 /* CommonContainers.swift */; };
+		31C0B22C2BFDFF34002A21B8 /* CoordinatorContainers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31C0B22B2BFDFF34002A21B8 /* CoordinatorContainers.swift */; };
+		31C0B2302BFE012D002A21B8 /* HomeCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31C0B22F2BFE012D002A21B8 /* HomeCoordinator.swift */; };
+		31C0B2322BFE024A002A21B8 /* MainTabbarCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31C0B2312BFE024A002A21B8 /* MainTabbarCoordinator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2B5673A5FCB42B61275128AD /* Pods_Buddha.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Buddha.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		31C0B1942BFC44EC002A21B8 /* Buddha.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Buddha.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		31C0B1972BFC44EC002A21B8 /* BuddhaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuddhaApp.swift; sourceTree = "<group>"; };
 		31C0B1992BFC44EC002A21B8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		31C0B19B2BFC44ED002A21B8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		31C0B19E2BFC44ED002A21B8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		31C0B1A82BFC5B9B002A21B8 /* Colors.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Colors.json; sourceTree = "<group>"; };
+		31C0B1AB2BFC5C08002A21B8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		31C0B1AF2BFC5CDC002A21B8 /* Storyboards.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Storyboards.swift; sourceTree = "<group>"; };
+		31C0B1B02BFC5CDC002A21B8 /* Colors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		31C0B1B12BFC5CDC002A21B8 /* Strings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Strings.swift; sourceTree = "<group>"; };
+		31C0B1B22BFC5CDC002A21B8 /* Assets.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Assets.swift; sourceTree = "<group>"; };
+		31C0B1BE2BFC8D2E002A21B8 /* ServiceContainers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceContainers.swift; sourceTree = "<group>"; };
+		31C0B1C02BFC8E63002A21B8 /* APIContainers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIContainers.swift; sourceTree = "<group>"; };
+		31C0B1C22BFC8F14002A21B8 /* RepositoryContainers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepositoryContainers.swift; sourceTree = "<group>"; };
+		31C0B1C62BFC8F64002A21B8 /* CommonContainers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonContainers.swift; sourceTree = "<group>"; };
+		31C0B2292BFDAAC2002A21B8 /* vi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = vi; path = vi.lproj/Localizable.strings; sourceTree = "<group>"; };
+		31C0B22B2BFDFF34002A21B8 /* CoordinatorContainers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoordinatorContainers.swift; sourceTree = "<group>"; };
+		31C0B22F2BFE012D002A21B8 /* HomeCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCoordinator.swift; sourceTree = "<group>"; };
+		31C0B2312BFE024A002A21B8 /* MainTabbarCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabbarCoordinator.swift; sourceTree = "<group>"; };
+		A1C1CD689FCD1C37CE0C74BE /* Pods-Buddha.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Buddha.release.xcconfig"; path = "Target Support Files/Pods-Buddha/Pods-Buddha.release.xcconfig"; sourceTree = "<group>"; };
+		DAD5A768D5F2C66ACB11A865 /* Pods-Buddha.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Buddha.debug.xcconfig"; path = "Target Support Files/Pods-Buddha/Pods-Buddha.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,17 +57,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				280D1C03721D97289BF550B0 /* Pods_Buddha.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1C73E899FB136B404D647683 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DAD5A768D5F2C66ACB11A865 /* Pods-Buddha.debug.xcconfig */,
+				A1C1CD689FCD1C37CE0C74BE /* Pods-Buddha.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		31C0B18B2BFC44EC002A21B8 = {
 			isa = PBXGroup;
 			children = (
 				31C0B1962BFC44EC002A21B8 /* Buddha */,
 				31C0B1952BFC44EC002A21B8 /* Products */,
+				1C73E899FB136B404D647683 /* Pods */,
+				EA6B1E9A91D979A928986D4A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -51,9 +94,16 @@
 		31C0B1962BFC44EC002A21B8 /* Buddha */ = {
 			isa = PBXGroup;
 			children = (
+				31C0B1BD2BFC8B1C002A21B8 /* Containers */,
+				31C0B1BB2BFC5DD4002A21B8 /* Common */,
+				31C0B1B92BFC5DC7002A21B8 /* Models */,
+				31C0B1BC2BFC5E38002A21B8 /* Repositories */,
+				31C0B1B72BFC5DB9002A21B8 /* Services */,
+				31C0B1B82BFC5DBC002A21B8 /* Coordinators */,
+				31C0B1BA2BFC5DCE002A21B8 /* Screens */,
 				31C0B1972BFC44EC002A21B8 /* BuddhaApp.swift */,
 				31C0B1992BFC44EC002A21B8 /* ContentView.swift */,
-				31C0B19B2BFC44ED002A21B8 /* Assets.xcassets */,
+				31C0B1A52BFC58BA002A21B8 /* Resources */,
 				31C0B19D2BFC44ED002A21B8 /* Preview Content */,
 			);
 			path = Buddha;
@@ -67,6 +117,108 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		31C0B1A52BFC58BA002A21B8 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				31C0B1A82BFC5B9B002A21B8 /* Colors.json */,
+				31C0B19B2BFC44ED002A21B8 /* Assets.xcassets */,
+				31C0B1A72BFC5B76002A21B8 /* Localization */,
+				31C0B1AE2BFC5C8C002A21B8 /* Generated */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		31C0B1A72BFC5B76002A21B8 /* Localization */ = {
+			isa = PBXGroup;
+			children = (
+				31C0B1AA2BFC5C08002A21B8 /* Localizable.strings */,
+			);
+			path = Localization;
+			sourceTree = "<group>";
+		};
+		31C0B1AE2BFC5C8C002A21B8 /* Generated */ = {
+			isa = PBXGroup;
+			children = (
+				31C0B1B22BFC5CDC002A21B8 /* Assets.swift */,
+				31C0B1B02BFC5CDC002A21B8 /* Colors.swift */,
+				31C0B1AF2BFC5CDC002A21B8 /* Storyboards.swift */,
+				31C0B1B12BFC5CDC002A21B8 /* Strings.swift */,
+			);
+			path = Generated;
+			sourceTree = "<group>";
+		};
+		31C0B1B72BFC5DB9002A21B8 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				31C0B1C82BFCA2A0002A21B8 /* Network */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		31C0B1B82BFC5DBC002A21B8 /* Coordinators */ = {
+			isa = PBXGroup;
+			children = (
+				31C0B22F2BFE012D002A21B8 /* HomeCoordinator.swift */,
+				31C0B2312BFE024A002A21B8 /* MainTabbarCoordinator.swift */,
+			);
+			path = Coordinators;
+			sourceTree = "<group>";
+		};
+		31C0B1B92BFC5DC7002A21B8 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		31C0B1BA2BFC5DCE002A21B8 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		31C0B1BB2BFC5DD4002A21B8 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		31C0B1BC2BFC5E38002A21B8 /* Repositories */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Repositories;
+			sourceTree = "<group>";
+		};
+		31C0B1BD2BFC8B1C002A21B8 /* Containers */ = {
+			isa = PBXGroup;
+			children = (
+				31C0B1BE2BFC8D2E002A21B8 /* ServiceContainers.swift */,
+				31C0B1C02BFC8E63002A21B8 /* APIContainers.swift */,
+				31C0B1C22BFC8F14002A21B8 /* RepositoryContainers.swift */,
+				31C0B1C62BFC8F64002A21B8 /* CommonContainers.swift */,
+				31C0B22B2BFDFF34002A21B8 /* CoordinatorContainers.swift */,
+			);
+			path = Containers;
+			sourceTree = "<group>";
+		};
+		31C0B1C82BFCA2A0002A21B8 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		EA6B1E9A91D979A928986D4A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2B5673A5FCB42B61275128AD /* Pods_Buddha.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,9 +226,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 31C0B1A22BFC44ED002A21B8 /* Build configuration list for PBXNativeTarget "Buddha" */;
 			buildPhases = (
+				6458F8C13A186696D1732D06 /* [CP] Check Pods Manifest.lock */,
 				31C0B1902BFC44EC002A21B8 /* Sources */,
 				31C0B1912BFC44EC002A21B8 /* Frameworks */,
 				31C0B1922BFC44EC002A21B8 /* Resources */,
+				80D57A86C42C81F1C1A6EA9B /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -109,6 +263,7 @@
 			knownRegions = (
 				en,
 				Base,
+				vi,
 			);
 			mainGroup = 31C0B18B2BFC44EC002A21B8;
 			productRefGroup = 31C0B1952BFC44EC002A21B8 /* Products */;
@@ -126,23 +281,90 @@
 			buildActionMask = 2147483647;
 			files = (
 				31C0B19F2BFC44ED002A21B8 /* Preview Assets.xcassets in Resources */,
+				31C0B1AC2BFC5C08002A21B8 /* Localizable.strings in Resources */,
 				31C0B19C2BFC44ED002A21B8 /* Assets.xcassets in Resources */,
+				31C0B1A92BFC5B9B002A21B8 /* Colors.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6458F8C13A186696D1732D06 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Buddha-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		80D57A86C42C81F1C1A6EA9B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Buddha/Pods-Buddha-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Buddha/Pods-Buddha-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Buddha/Pods-Buddha-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		31C0B1902BFC44EC002A21B8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				31C0B1B32BFC5CDC002A21B8 /* Storyboards.swift in Sources */,
+				31C0B1B42BFC5CDC002A21B8 /* Colors.swift in Sources */,
+				31C0B1B62BFC5CDC002A21B8 /* Assets.swift in Sources */,
+				31C0B1C32BFC8F14002A21B8 /* RepositoryContainers.swift in Sources */,
+				31C0B1B52BFC5CDC002A21B8 /* Strings.swift in Sources */,
 				31C0B19A2BFC44EC002A21B8 /* ContentView.swift in Sources */,
+				31C0B1BF2BFC8D2E002A21B8 /* ServiceContainers.swift in Sources */,
+				31C0B2302BFE012D002A21B8 /* HomeCoordinator.swift in Sources */,
+				31C0B1C12BFC8E63002A21B8 /* APIContainers.swift in Sources */,
+				31C0B1C72BFC8F64002A21B8 /* CommonContainers.swift in Sources */,
 				31C0B1982BFC44EC002A21B8 /* BuddhaApp.swift in Sources */,
+				31C0B22C2BFDFF34002A21B8 /* CoordinatorContainers.swift in Sources */,
+				31C0B2322BFE024A002A21B8 /* MainTabbarCoordinator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		31C0B1AA2BFC5C08002A21B8 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				31C0B1AB2BFC5C08002A21B8 /* en */,
+				31C0B2292BFDAAC2002A21B8 /* vi */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		31C0B1A02BFC44ED002A21B8 /* Debug */ = {
@@ -150,6 +372,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -213,6 +436,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -266,6 +490,7 @@
 		};
 		31C0B1A32BFC44ED002A21B8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DAD5A768D5F2C66ACB11A865 /* Pods-Buddha.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -274,12 +499,14 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Buddha/Preview Content\"";
 				DEVELOPMENT_TEAM = 2GMYFZPW4G;
 				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -295,6 +522,7 @@
 		};
 		31C0B1A42BFC44ED002A21B8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A1C1CD689FCD1C37CE0C74BE /* Pods-Buddha.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -303,12 +531,14 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Buddha/Preview Content\"";
 				DEVELOPMENT_TEAM = 2GMYFZPW4G;
 				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

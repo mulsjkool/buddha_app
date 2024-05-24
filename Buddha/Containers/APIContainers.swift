@@ -6,3 +6,10 @@
 //
 
 import Foundation
+import Factory
+
+final class APIContainers: SharedContainer {
+    static let shared = APIContainers()
+    let manager = ContainerManager()
+    
+}

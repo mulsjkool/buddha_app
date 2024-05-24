@@ -1,0 +1,6 @@
+framework module NCPersistence {
+  umbrella header "NCPersistence-umbrella.h"
+
+  export *
+  module * { export * }
+}

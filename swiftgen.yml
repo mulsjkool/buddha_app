@@ -1,0 +1,32 @@
+input_dir: Buddha/
+output_dir: Buddha/Resources/Generated/
+
+ib:
+  inputs: ""
+  outputs:
+    templateName: scenes-swift5
+    output: Storyboards.swift
+
+strings:
+  inputs: Resources/Localization/vi.lproj
+  outputs:
+    templateName: structured-swift5
+    output: Strings.swift
+    
+xcassets:
+  inputs: Resources/Assets.xcassets
+  outputs:
+    templateName: swift5
+    output: Assets.swift
+    
+colors:
+  inputs: Resources/Colors.json
+  outputs:
+    templateName: swift5
+    output: Colors.swift
+    
+#fonts:
+#  inputs: Resources/CustomFonts
+#  outputs:
+#    templateName: swift5
+#    output: Fonts.swift

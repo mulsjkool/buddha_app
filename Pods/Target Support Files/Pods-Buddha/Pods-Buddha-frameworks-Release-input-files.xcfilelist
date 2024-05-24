@@ -1,0 +1,12 @@
+${PODS_ROOT}/Target Support Files/Pods-Buddha/Pods-Buddha-frameworks.sh
+${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework
+${BUILT_PRODUCTS_DIR}/CombineExt/CombineExt.framework
+${BUILT_PRODUCTS_DIR}/Factory/Factory.framework
+${BUILT_PRODUCTS_DIR}/KeychainAccess/KeychainAccess.framework
+${BUILT_PRODUCTS_DIR}/Moya/Moya.framework
+${BUILT_PRODUCTS_DIR}/NCCommon/NCCommon.framework
+${BUILT_PRODUCTS_DIR}/NCLogger/NCLogger.framework
+${BUILT_PRODUCTS_DIR}/NCNetworking/NCNetworking.framework
+${BUILT_PRODUCTS_DIR}/NCPersistence/NCPersistence.framework
+${BUILT_PRODUCTS_DIR}/ReachabilitySwift/Reachability.framework
+${BUILT_PRODUCTS_DIR}/Stinsen/Stinsen.framework

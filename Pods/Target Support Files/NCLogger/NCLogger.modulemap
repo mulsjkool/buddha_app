@@ -1,0 +1,6 @@
+framework module NCLogger {
+  umbrella header "NCLogger-umbrella.h"
+
+  export *
+  module * { export * }
+}

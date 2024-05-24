@@ -1,0 +1,22 @@
+{
+  "name": "NCCommon",
+  "version": "0.1.0",
+  "summary": "A short description of NCCommon.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Chinh Phung/NCCommon",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Chinh Phung": "thai.nguyen@nunchuk.io"
+  },
+  "source": {
+    "git": "https://github.com/Chinh Phung/NCCommon.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "15.0"
+  },
+  "source_files": "NCCommon/Sources/**/*.{swift}"
+}

@@ -1,0 +1,39 @@
+{
+  "name": "NCNetworking",
+  "version": "0.1.0",
+  "summary": "A short description of NCNetworking.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/mulsjkool",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Chinh Phung": "chinhhubt96@gmail.com"
+  },
+  "source": {
+    "path": "",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "15.0"
+  },
+  "source_files": "NCNetworking/Sources/**/*.{swift}",
+  "dependencies": {
+    "Moya/Combine": [
+      "~> 15.0"
+    ],
+    "CombineExt": [
+
+    ],
+    "Alamofire": [
+
+    ],
+    "ReachabilitySwift": [
+
+    ],
+    "NCLogger": [
+
+    ]
+  }
+}

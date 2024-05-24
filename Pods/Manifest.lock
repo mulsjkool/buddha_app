@@ -1,0 +1,73 @@
+PODS:
+  - Alamofire (5.9.1)
+  - CombineExt (1.8.0)
+  - Factory (2.3.2)
+  - KeychainAccess (4.2.2)
+  - Moya/Combine (15.0.0):
+    - Moya/Core
+  - Moya/Core (15.0.0):
+    - Alamofire (~> 5.0)
+  - NCCommon (0.1.0)
+  - NCLogger (0.1.0)
+  - NCNetworking (0.1.0):
+    - Alamofire
+    - CombineExt
+    - Moya/Combine (~> 15.0)
+    - NCLogger
+    - ReachabilitySwift
+  - NCPersistence (0.1.0):
+    - KeychainAccess
+  - ReachabilitySwift (5.2.1)
+  - Stinsen (2.0.7)
+  - SwiftGen (6.6.3)
+
+DEPENDENCIES:
+  - Alamofire
+  - CombineExt
+  - Factory
+  - Moya/Combine (~> 15.0)
+  - NCCommon (from `Libraries/NCCommon`)
+  - NCLogger (from `Libraries/NCLogger`)
+  - NCNetworking (from `Libraries/NCNetworking`)
+  - NCPersistence (from `Libraries/NCPersistence`)
+  - Stinsen
+  - SwiftGen (~> 6.0)
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - CombineExt
+    - Factory
+    - KeychainAccess
+    - Moya
+    - ReachabilitySwift
+    - Stinsen
+    - SwiftGen
+
+EXTERNAL SOURCES:
+  NCCommon:
+    :path: Libraries/NCCommon
+  NCLogger:
+    :path: Libraries/NCLogger
+  NCNetworking:
+    :path: Libraries/NCNetworking
+  NCPersistence:
+    :path: Libraries/NCPersistence
+
+SPEC CHECKSUMS:
+  Alamofire: f36a35757af4587d8e4f4bfa223ad10be2422b8c
+  CombineExt: c4daa97ef75754d8ef319bd79edeef82652f3eea
+  Factory: 3a9d0809910130d609b34d4554828e6ecce519ff
+  KeychainAccess: c0c4f7f38f6fc7bbe58f5702e25f7bd2f65abf51
+  Moya: 138f0573e53411fb3dc17016add0b748dfbd78ee
+  NCCommon: 39cd459807f51a72e4c3a828aa88e0d94859599d
+  NCLogger: e42e146d710e3a1f9964693c833afee3acfe9f9e
+  NCNetworking: 342c48371cd793d1f58fe31b69068f38ead47083
+  NCPersistence: 31347e9649fb7ab1c13ce1540bb7da036c49e525
+  ReachabilitySwift: 5ae15e16814b5f9ef568963fb2c87aeb49158c66
+  Stinsen: b1c34553e21ca4f1ba53bc29cb30e71e8cce811c
+  SwiftGen: 4993cbf71cbc4886f775e26f8d5c3a1188ec9f99
+
+PODFILE CHECKSUM: 2007eeca40c3f5b3a8a3da5d9a2a326716ebb64e
+
+COCOAPODS: 1.15.2

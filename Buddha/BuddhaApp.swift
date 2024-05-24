@@ -11,7 +11,7 @@ import SwiftUI
 struct BuddhaApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            MainTabbarCoordinator().view()
         }
     }
 }

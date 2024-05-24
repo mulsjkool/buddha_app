@@ -1,0 +1,6 @@
+framework module NCCommon {
+  umbrella header "NCCommon-umbrella.h"
+
+  export *
+  module * { export * }
+}
