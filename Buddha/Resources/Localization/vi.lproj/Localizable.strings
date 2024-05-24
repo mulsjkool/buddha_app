@@ -1,0 +1,10 @@
+/* 
+  Localizable.strings
+  Buddha
+
+  Created by Phung Chinh on 21/5/24.
+  
+*/
+
+"general.on" = "On";
+"general.off" = "Off";
